@@ -1,0 +1,21 @@
+.navbar {
+    background-color: blueviolet;
+}
+
+.navbar-brand {
+    color: blue;
+    font-weight: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+}
+ul li,a {
+    
+    color: blue;
+}
+.nav-link {
+    color: brown;
+    
+}
+
+

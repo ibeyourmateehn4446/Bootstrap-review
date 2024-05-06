@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --primary-color: #093c67;
+   --secondary-color: #f8f9fa;
+    --background-color: rgb(3, 3, 70);
+    --text-color: #831a1a;
+    --hover-color: rgb(197, 182, 182);
+    --grid-gutter-width: 1rem;
+    --font-size-base: 16px;
+    --brand-font: "open sans", san-serif;
+    --border-radius: 25rem;
+    --shadow-color: rgba(0, 0, 0, 0.15);
+    --font-family: "roboto",serif ;
+    --font-weigth: 400;
+    --font-style: normal;
+
+}
+.navbar{
+    background-color: var(--background-color);
+}
+.navbar .nav-link {
+    color: var(--text-color);
+    font-weight: 700;
+}
+.btn1{
+    height: 52px ;
+    width: 100px;
+    border-style: none;
+    background-color: transparent;
+    border-radius: 5px;
+    color: white;
+
+}
+.btn2{
+    height: 52px ;
+    width: 100px;
+    border-style: none;
+    background-color: #9e0a0a;
+    border-radius: 5px;
+    color: white;
+}
+.btn1:hover{
+    background-color: white;
+    color: black;
+    transition: ease-in-out 1s;
+}
+.home {
+    background-image: url('https://images.unsplash.com/photo-1591901206069-ed60c4429a2e?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+.content{
+    padding-top: 280px;
+}
+
+.content h2{
+    color: var(--background-color);
+    font-weight: 900;
+    font-size: 60px;
+}
+.content input{
+    width: 80%;
+    height: 80px;
+    border-style: none;
+    border-radius: 5px;
+}
+.content .btn3{
+    height: 80px;
+    width: 100px;
+    margin-left: -5px;
+    border-style: none;
+    font-weight: 600;
+    background-color: #9e0a0a;
+    border-radius: 5px;
+    color: white;
+}
